@@ -1,0 +1,31 @@
+.video {
+
+  &__image {
+    position: relative;
+  }
+
+
+  &__content {
+    font-size: 10px;
+  }
+
+  &__heading {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  &__img {
+    object-fit: fill;
+    max-width: 100%;
+
+  }
+
+  &__duration{
+    font-size: 10px;
+    background: rgba(65, 62, 62, 0.66);
+    position:absolute;
+    bottom: 15px;
+    right: 16px;
+  }
+}
